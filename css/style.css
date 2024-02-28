@@ -1,0 +1,22 @@
+body {
+    background-color: saddlebrown;
+}
+h1 {
+font-family: sans-serif;
+text-align: center;
+}
+h2, h3, h4, h5, h6 {
+font-family: sans-serif;
+text-transform: uppercase;
+}
+img {display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; 
+}
+
+li {
+    font-family: Calibri, sans-serif;
+    margin-bottom: 5px;
+}
