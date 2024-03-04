@@ -1,13 +1,12 @@
 body {
-    background-color: saddlebrown;
+    background-color:lawngreen;
 }
 h1 {
 font-family: sans-serif;
 text-align: center;
-}
-h2, h3, h4, h5, h6 {
 font-family: sans-serif;
 text-transform: uppercase;
+
 }
 img {display: block;
     width: 250px;
@@ -15,8 +14,44 @@ img {display: block;
     margin-right: auto;
     border-radius: 50%; 
 }
-
+a[target] {
+    font-size: xx-large;
+}
+a[target="_blank"] {
+    border: 5px solid purple;
+}
 li {
     font-family: Calibri, sans-serif;
     margin-bottom: 5px;
+    color: brown;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+font-size:larger;
+font-weight: bold;
+}
+#para{
+    color: black;
+}
+
+.my-para {
+    color: blue;
+}
+h2 {
+    font-family: sans-serif;
+    text-align:center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+span, h4, .my-para, #para { background-color: palevioletred;}
+
+h3 {
+    font-family: sans-serif;
+    text-align:center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: brown; 
+    color: gold;
 }
